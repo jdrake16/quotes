@@ -32,6 +32,7 @@
   <fragment
     android:id="@+id/navigation_quotes"
     android:label="@string/title_quote_list"
+
     android:name="edu.cnm.deepdive.quotes.controller.QuotesFragment"
     tools:layout="@layout/fragment_quotes"/>
 
