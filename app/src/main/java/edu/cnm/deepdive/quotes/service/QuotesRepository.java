@@ -29,6 +29,9 @@ public class QuotesRepository {
 
   }
 
-  // TODO Add other methods necessary
+  public Single<QuoteWithSource> getQuote(long id) {
+    return quoteDao.selectById(id)
+        .subscribeOn(Schedulers.io());
+  }
 
 }
