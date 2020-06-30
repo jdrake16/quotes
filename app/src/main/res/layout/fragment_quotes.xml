@@ -8,6 +8,7 @@
   tools:context=".controller.QuotesFragment">
 
 
+
   <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/quote_list"
     android:layout_width="0dp"
@@ -21,5 +22,14 @@
     android:background="#FFE0E0E0"
     android:padding="@dimen/half_margin"
     />
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/add_quote"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_add"
+    app:useCompatPadding="true"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
