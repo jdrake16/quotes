@@ -18,6 +18,7 @@ public class QuoteWithSource extends Quote {
     this.source = source;
   }
 
+
   @NonNull
   @Override
   public String toString() {
